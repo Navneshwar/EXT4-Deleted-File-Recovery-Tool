@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.test-temp/
+ext4-recovery-output/
+.venv/

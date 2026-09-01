@@ -1,0 +1,2 @@
+[console_scripts]
+ext4recover = ext4recover.cli:main

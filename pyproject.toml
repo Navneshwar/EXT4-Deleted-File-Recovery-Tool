@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ext4-forensics"
+version = "0.1.0"
+description = "Read-only, explainable EXT4 deleted-file recovery"
+requires-python = ">=3.10"
+dependencies = ["pytsk3>=20230125"]
+
+[project.scripts]
+ext4recover = "ext4recover.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
