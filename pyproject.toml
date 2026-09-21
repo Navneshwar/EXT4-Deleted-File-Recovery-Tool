@@ -9,6 +9,9 @@ description = "Read-only, explainable EXT4 deleted-file recovery"
 requires-python = ">=3.10"
 dependencies = ["pytsk3>=20230125"]
 
+[project.optional-dependencies]
+ewf = ["pyewf"]
+
 [project.scripts]
 ext4recover = "ext4recover.cli:main"
 
